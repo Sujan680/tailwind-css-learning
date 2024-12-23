@@ -15,15 +15,21 @@
                 <div class="basis-[55%]">
                     <p class="text-[20px] font-extralight">Success-oriented learning! icon</p>
                     <h3 class="text-[30px] text-wrap lg:text-[50px] font-bold">Fueling Skills, Iginiting Careers</h3>
-                    <p class="text-neutral-500 py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, itaque inventore voluptate
+                    <p class="text-neutral-500 py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae,
+                        itaque inventore voluptate
                         culpa officia qui. Blanditiis quidem nam consectetur numquam!</p>
                     <div class="flex py-4 gap-4 justify-center md:justify-start">
-                        <div class="bg-gradient-to-r from-blue-500 to-blue-800 rounded-lg text-white text-xs py-2 px-2  ">Explore Courses</div>
-                        <div class="bg-gradient-to-l from-gray-400 to-gray-700 py-2 px-3 text-white rounded-lg">Book Demo Class</div>
+                        <div
+                            class="bg-gradient-to-r from-blue-500 to-blue-800 rounded-lg text-white text-xs py-2 px-2  ">
+                            Explore Courses</div>
+                        <div class="bg-gradient-to-l from-gray-400 to-gray-700 py-2 px-3 text-white rounded-lg">Book
+                            Demo Class</div>
                     </div>
                 </div>
                 <div class="basis-[45%]">
-                    <img class="w-[100%] rounded-full object-cover" src="https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                    <img class="w-[100%] rounded-full object-cover"
+                        src="https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        alt="">
                 </div>
             </div>
         </div>
@@ -137,6 +143,56 @@
             </div>
         </div>
     </section>
+
+    <!-- flex-grow example -->
+    <div class="max-w-[1320px] mx-auto">
+        <div class="flex gap-2 md:flex-col">
+            <div class="bg-red-600 grow text-center py-4">
+                One
+            </div>
+            <div class="bg-blue-400 grow-0 md:grow text-center py-4">
+                Two
+            </div>
+            <div class="bg-gray-600 grow text-center py-4">
+                Three
+            </div>
+        </div>
+    </div>
+
+    <!-- Flew-shrink -->
+    <div class="max-w-[1320px] mx-auto mt-10">
+        <div class="flex gap-2 justify-center">
+            <div class="bg-blue-800 w-40 h-20 shrink hover:basis-full">1</div>
+            <div class="bg-yellow-500 grow w-20 h-20">2</div>
+            <div class="bg-pink-700 shrink-0 w-32 ">3</div>
+            <div class="bg-orange-500 shrink w-40 hover:flex-1">4</div>
+        </div>
+    </div>
+
+
+    <!-- flex-1 and flex-auto -->
+    <div class="flex gap-3 my-10 mx-4">
+        <div class="flex-none w-14 bg-blue-500 py-4 text-center">
+          01
+        </div>
+        <div class="flex-1 w-64 bg-blue-600 text-center py-2">
+          02
+        </div>
+        <div class="flex-auto w-32 bg-blue-600 text-center py-2">
+          03
+        </div>
+      </div>
+
+
+      <!-- basis flex -->
+     <div class="max-w-[1200px] mx-auto">
+        <div class="flex ">
+            <div class="basis-1/2 bg-slate-400 w-12 text-center">01</div>
+            <div class="basis-3/4 bg-red-300 text-center">02</div>
+            <div class="basis-1/2 bg-blue-900 text-center">03</div>
+            <div class="bg-yellow-100 basis-1/2">04</div>
+          </div>
+     </div>
 
 
 
