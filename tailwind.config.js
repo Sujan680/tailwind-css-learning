@@ -27,6 +27,15 @@ module.exports = {
         ternary: '#FFFGGG',
       }
     },
+    keyframes: {
+      spinMe: {
+        '0%' : { transform: 'rotate(0deg)' },
+        '100%' : { transform: 'rotate(360deg)' }
+      }
+    },
+    animation: {
+      rotate: 'spinMe 2s 0s linear infinite'
+    }
   },
   plugins: [],
 }
